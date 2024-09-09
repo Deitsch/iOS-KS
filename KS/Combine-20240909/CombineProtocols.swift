@@ -38,17 +38,18 @@ class Test2 {
 // MARK: AnyPublisher
 
 protocol TicketingProvider {
-    var tickets: AnyPublisher<String, Never>! { get }
+    var tickets: AnyPublisher<String, Never> { get }
 }
 
-class BeamTicketingProvider: TicketingProvider {
-    var tickets: AnyPublisher<String, Never>!
-    
+class BeamTicketingProvider {
     @Published var pub = ""
     var cvs: CurrentValueSubject<String, Never> = .init("")
+}
+
+extension BeamTicketingProvider: TicketingProvider {
     
-    init() {
-        tickets = cvs.eraseToAnyPublisher()
-        tickets = $pub.eraseToAnyPublisher()
+    var tickets: AnyPublisher<String, Never> {
+        $pub.eraseToAnyPublisher()
+//        cvs.eraseToAnyPublisher()
     }
 }
