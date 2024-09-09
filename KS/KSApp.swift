@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct KSApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView(viewModel: .init())
+            CombineView()
         }
     }
 }
