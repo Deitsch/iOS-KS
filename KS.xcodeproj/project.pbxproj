@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				89355B162C7C61B600727DBC /* KSApp.swift */,
-				89E5E9912C8EF2EA002E0D77 /* ViewModel-20240826 */,
-				89D1EA792C8ED8ED009D883D /* Combine-20240909 */,
+				89E5E9912C8EF2EA002E0D77 /* 20240826-ViewModel */,
+				89D1EA792C8ED8ED009D883D /* 20240909-Combine */,
 				89355B1A2C7C61BD00727DBC /* Assets.xcassets */,
 				89355B1C2C7C61BD00727DBC /* KS.entitlements */,
 				89355B1D2C7C61BD00727DBC /* Preview Content */,
@@ -78,23 +78,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		89D1EA792C8ED8ED009D883D /* Combine-20240909 */ = {
+		89D1EA792C8ED8ED009D883D /* 20240909-Combine */ = {
 			isa = PBXGroup;
 			children = (
 				89CE45E92C8EDE8D001F5D2C /* CombineProtocols.swift */,
 				89D1EA772C8ED784009D883D /* ViewController.swift */,
 				89D1EA752C8ED770009D883D /* Storyboard.storyboard */,
 			);
-			path = "Combine-20240909";
+			path = "20240909-Combine";
 			sourceTree = "<group>";
 		};
-		89E5E9912C8EF2EA002E0D77 /* ViewModel-20240826 */ = {
+		89E5E9912C8EF2EA002E0D77 /* 20240826-ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				89355B182C7C61B600727DBC /* ContentView.swift */,
 				89355B252C7C741100727DBC /* ContentView+ViewModel.swift */,
 			);
-			path = "ViewModel-20240826";
+			path = "20240826-ViewModel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
